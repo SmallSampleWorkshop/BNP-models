@@ -70,6 +70,7 @@ if __name__ == "__main__":
     plt.show()
 
     it = 50
+    alpha = 10000.
     zest = collapsed_sampler(it, x, alpha, So, nuo, muo, kappao)
 
     plt.scatter(x[:,0],x[:,1],c=zest)
